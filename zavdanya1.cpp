@@ -43,9 +43,10 @@ int main()
     cout << "дев'ять" << endl;
     break;
   default:
-    cout << 'Помилка !' << endl;
+    cout << "Помилка !" << endl;
     break;
   }
 
   return 0;
+
 }
