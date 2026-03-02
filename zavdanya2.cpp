@@ -9,7 +9,7 @@ int main () {
   cin >> n;
 
   if (n < 0) {
-    cout << 'Помилка !' << endl;
+    cout << "Помилка !" << endl;
   } else {
     while(n > 0) {        // або 1 щоб менше крокiв було
       factorial *= n;
@@ -19,4 +19,5 @@ int main () {
   }
   
   return 0;
+
 }
